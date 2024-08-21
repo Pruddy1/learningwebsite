@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn To Code</title>
+    <link rel ="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,
+500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/ilogo.png.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">TOPICS</a></li>
+                    <li><a href="">PRACTICALS</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">EDITOR</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1 class="anim">Learn To Code</h1>
+            <p>No prior coding experience? No problem! LearnToCode is designed to break down HTML,
+                 CSS, and JavaScript into manageable steps,<br> making website building accessible to everyone.<br>
+                 Forget complex coding jargon, LearnToCode guides you through each step for 
+                 a frontend website development. We make website development feel like a fun and achievable process,<br>
+                 you will see your website come to life as you learn!
+                 </p>
+                 <a href ="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+    <!-------------Topics----------->
+    <section class="Topics">
+             <div class="row">
+                <div class="Topic-col">
+                    <h1 class="anim">Road Map To Building a Responsive Website</h1>
+                    <p>With step by step process, LearnTocode will showcase how to structure web pages with HTML,
+                     the language that creates the content and layout. CSS will become your tool to style those pages, 
+                    controlling how everything looks from fonts and colors to positioning elements. 
+                    JavaScript adds interactivity, allowing you to create dynamic elements and user experiences.</p>
+                </div>
+                <div class="Topic-col">
+                    <img src="images/tttechh.png.jpg" class="feature-img anim">
+                    <a href="" class="hero-btn blue-btn">LEARN</a>
+                </div>
+                </div>
+                </section>
+                <section class="Topics">
+                    <div class="row">
+                        <div class="Topic-col">
+                            <h1 class="anim">Learn Website Animations</h1>
+                            <img src="images/scriiiiipt.png" class="feature-img anim">
+                        </div>
+                       <div class="Topic-col">
+                           <p>Working with animations which entails delving deeper into CSS and JavaScript, you can unlock the
+                            world of front-end animation. LearnToCode will showcase techniques to create smooth transitions,
+                             interactive elements, and captivating animations that bring your website to life.</p>
+                             <a href="" class="hero-btn blue-btn">LEARN</a>
+                       </div>
+                       </div>
+                       </section>
+                       <section class="Topics">
+                        <div class="row">
+                           <div class="Topic-col">
+                               <h1 class="anim">JavaScript Projects</h1>
+                               <p>With step by step process, LearnTocode will showcase how to structure web pages with HTML,
+                                the language that creates the content and layout. CSS will become your tool to style those pages, 
+                                controlling how everything looks from fonts and colors to positioning elements. 
+                                JavaScript adds interactivity, allowing you to create dynamic elements and user experiences.</p>
+                           </div>
+                           <div class="Topic-col">
+                               <img src="images/Tecccccch.png" class="feature-img anim">
+                               <a href="" class="hero-btn blue-btn">LEARN</a>
+                           </div>
+                           </div>
+                           </section>
+                
+                         <!-------Call To Action------->
+                         <section class="cta">
+                            <section class="cta">
+                                <h1>Build websites that wow your audience. <br>
+                                    Learn the secrets of front-end development!</h1>
+                                    <a href="" class="hero-btn">START NOW &#8594;</a>
+                            </section>
+                            <h1></h1>
+                         </section>
+
+
+
+
+
+
+
+    <!----JavaScript for Toggle Menu------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

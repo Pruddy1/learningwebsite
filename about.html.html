@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn To Code</title>
+    <link rel ="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,
+500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/ilogo.png.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">TOPICS</a></li>
+                    <li><a href="">PRACTICALS</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">EDITOR</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About </h1>
+        </section>
+        <!-----about content------>
+        <section class="about">
+            <div class="Row">
+                <div class="about-col">
+                    <h1>Practical Projects for Aspiring Front-End Developers!</h1>
+                    <p>Hey there, web wannabes and coding enthusiasts! <br>
+                        Tired of tutorials that just drone on about theory?
+                         Want to ditch the lectures and dive straight into building awesome websites?<br>
+                      We feel you!  That's why we created LearnToCode, 
+                      your one-stop shop for hands-on front-end development! <br>
+                      <br>
+                        Here's the thing: learning to code shouldn't feel like homework. 
+                        It should be fun, engaging, and most importantly, practical!  At LearnToCode, 
+                        we're all about learning by doing. We ditch the dry lectures and throw you right 
+                        into the action with real-world website projects.<br>
+                        <br>
+                        Think building a to-do list app that actually helps you get stuff done? ☑️ <br>
+                         How about a photo gallery that showcases your travel pics in style? <br>
+                           Or maybe you're feeling ambitious and want to create a sleek, single-page application?<br>
+                           <br>
+                             We've got projects for all skill levels, from complete beginners to coding ninjas.<br>
+                             <br>
+                        But wait, there's more!  Not only will you be building cool websites, 
+                        you'll also be mastering the essential tools of the trade: <br>
+                        <br>
+                        HTML: Learn the building blocks of every website, the language that structures 
+                        your web pages. <br>
+                        <br>
+                        CSS: Unleash your inner designer and control the look and feel of your creations. 
+                        Fonts, colors, layouts-you name it, you can style it! <br>
+                        <br>
+                        JavaScript: Add a sprinkle of interactivity to your websites. 
+                        Make things happen with buttons, forms, and cool animations! <br>
+                        <br>
+                        By tackling these projects, you'll gain more than just coding skills.
+                         You'll develop problem-solving superpowers, become a website-building whiz, 
+                         and learn how to think like a real front-end developer.</p>
+                         <a href="" class="hero-btn blue-btn">EXPLORE NOW &#8594;</a>
+                </div>
+                <div class="about-col">
+                    <img src="images/programming.png">
+                </div>
+            </div>
+        </section>
+       
+           
+
+    <!----JavaScript for Toggle Menu------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
