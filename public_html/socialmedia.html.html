@@ -1,0 +1,3080 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn To Code</title>
+    <link rel ="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,
+500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/ilogo.png.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">WEBSITES</a></li>
+                    <li><a href="">ANIMATIONS</a></li>
+                    <li><a href="">JAVASCRIPTS </a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">EDITOR</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Social Media Website</h1>
+        </section>
+        <!-----Responsive Social Media web practicals content------>
+        <section class = "responsive-web">
+                    <h1>How To Make A Social Media Website
+                        using HTML, CSS and JAVASCRIPT.
+                    </h1>
+                    <h2>How To Begin:</h2>
+                    <h3>Imagine building a beautiful and interactive house, 
+                        but instead of bricks and mortar, you use code! That's the magic of frontend websites. 
+                        With HTML, CSS, and JavaScript, you'll be the architect and interior designer, 
+                        crafting the visual elements, layout, and even some of the special effects users see 
+                        and interact with.  Think of HTML as the foundation, CSS the paint and furniture, 
+                        and JavaScript the smart-home features that make things move and respond. 
+                        It's all about bringing websites to life, making them user-friendly and engaging
+                         for everyone who visits!</h3>
+                         <br>
+                         <ul>
+           <li>Download and install VS code from your browser</li>
+            <li>Create a new folder in your computer</li>
+               <li>Open the new folder you created with VS code, then create a new file within your VS code editor
+                 and name in index.html.  </li>
+                 <li>The index.html  file will contain code for the html structure of our website.</li>
+                <li>Create a new file again in within your VS code and name it style.css.</li>
+                 <li>The style.css file will contain codes for the css styling our website.</li>
+                 <p> Let's exit the VS code or minimize it, then we come back to our folder, 
+                    then within our folder, we will create another folder and name it images, 
+                    then store or paste the images you would like to use while we create our website.</p>
+                <p>Below, we have our index.html file, as well as style.css file and images folder,
+                    containing all the images and logo that will be used for this website.
+                </p>          
+            </section>
+            <section class="Responsive-web">
+                <div class="RRow">
+            <div class="responsive-col">
+                <img src="images/Screenshot (471).png">
+                </div>
+        </div>
+        </section>
+    
+        <section class="Responsive-web">
+            <div class="RRow">
+        <div class="RResponsive-col">
+            <img src="images/Screenshot (254).png">
+    </div>
+   <div class="RResponsive-col">
+            <img src="images/Screenshot (255).png">
+    </div>
+    </div>
+    </section>
+    <section class="Responsive-web">
+            <h1>HTML: "Hypertext Markup Language"</h1>
+            <p>HTML, which stands for HyperText Markup Language, is the foundation of creating
+             web pages. It's like the skeleton that provides structure and organization to the content 
+             you see on a website. HTML doesn't define the visual style of the webpage. It focuses 
+             on the content itself. You can use HTML to write text, insert images and videos, 
+             and create tables to organize information.Hypertext refers to the ability to link between web pages. 
+             HTML allows you to create hyperlinks, which is essentially text you can click on to navigate
+              to another webpage. This is what makes the web an interconnected web of information.
+             HTML works alongside other technologies like CSS (Cascading Style Sheets) and JavaScript to 
+             create a complete web page. CSS is responsible for the visual design, like fonts and colors, 
+             and JavaScript adds interactivity to webpages.</p>
+             <br>
+             <h4>Here's a breakdown of what HTML does:</h4>
+             <ul>
+                <li>Structure: HTML defines different parts of a webpage, like headings, paragraphs, images, and lists. 
+                It uses tags, which are special keywords wrapped in angle brackets (< and >), 
+                to tell the web browser how to display the content. For instance, the tag h1 indicates a heading,
+                 while the p tag signifies a paragraph.</li>
+                 <li>Content:  HTML doesn't define the visual style of the webpage. It focuses on the content itself.
+                     You can use HTML to write text, insert images and videos, 
+                     and create tables to organize information.</li>
+                <li>Hypertext:  Hypertext refers to the ability to link between web pages. HTML allows you to create 
+                    hyperlinks, which is essentially text you can click on to navigate to another webpage. 
+                    This is what makes the web an interconnected web of information.</li>
+                </ul>
+                <br>
+                <p>HTML works alongside other technologies like CSS (Cascading Style Sheets) and JavaScript to 
+                    create a complete web page. CSS is responsible for the visual design, like fonts and colors, 
+                    and JavaScript adds interactivity to webpages</p>
+                    <br>
+            <h4>Now, let's get started. We will open our index.html file now with our code editor</h4>
+            <br>
+                <div class="RRow">
+            <div class="RResponsive-col">
+                <h4>Here, we start with the basic html structures:</h4>
+                <ul>
+                    <li>The DOCTYPE declaration, which is essentially the first line in an HTML document.
+                         It tells the web browser that this is an HTML document 
+                         and what version of HTML it's written in.
+                        </li>
+                    <li>The html tag marks the beginning of the HTML document itself. Everything 
+                        between the opening html tag and the closing html tag 
+                        defines the content of the webpage.</li>
+                    <li>The head tag defines the head section of the document. The head section contains 
+                        meta information about the webpage that isn't directly displayed on the page 
+                        itself but is still important for browsers and search engines.
+                        </li>
+                    <li>The meta tag that provides instructions on how to control the viewport of the webpage.
+                         </li>
+                    <li>The title tag defines the title of the webpage. The title is displayed on the browser tab
+                         and search engine results. In this case, the title is set to 
+                         "Technology Website".</li>
+                    <li> The link rel="stylesheet" href="style.css" tag links the external stylesheet file named 
+                        "style.css" to the HTML document. By linking an external stylesheet, you can keep the 
+                        HTML code clean and organized.</li>
+                </ul>
+                </div>
+                <div class="Responsive-col">
+                    <h3>HTML</h3>
+                     <div class = "image-container">
+                    <div class="line">
+                <img src="images2/Screenshot (518).png">
+                </div>
+                </div>
+        </div>
+        </section>
+        <section class = "Responsive-web">
+            <h1>Let's open our style.css file, that we have created along side with our index.html file,
+                 in our code editor and get started. Here, we have the css 
+                  properties.</h1>
+            <div class="RRow">
+                <div class="RResponsive-col">
+                    <h4>Here, we start with the basic html structures:</h4>
+                    <ul>
+                        <li>The DOCTYPE declaration, which is essentially the first line in an HTML document.
+                             It tells the web browser that this is an HTML document 
+                             and what version of HTML it's written in.
+                            </li>
+                        <li>The html tag marks the beginning of the HTML document itself. Everything 
+                            between the opening html tag and the closing html tag 
+                            defines the content of the webpage.</li>
+                        <li>The head tag defines the head section of the document. The head section contains 
+                            meta information about the webpage that isn't directly displayed on the page 
+                            itself but is still important for browsers and search engines.
+                            </li>
+                        <li>The meta tag that provides instructions on how to control the viewport of the webpage.
+                             </li>
+                        <li>The title tag defines the title of the webpage. The title is displayed on the browser tab
+                             and search engine results. In this case, the title is set to 
+                             "Technology Website".</li>
+                        <li> The link rel="stylesheet" href="style.css" tag links the external stylesheet file named 
+                            "style.css" to the HTML document. By linking an external stylesheet, you can keep the 
+                            HTML code clean and organized.</li>
+                    </ul>
+                    </div>
+                    <div class="Responsive-col">
+                    <h3>CSS</h3>
+                    <div class = "image-container">
+                    <div class="line">
+                    <img src="images2/Screenshot (520).png">
+                    </div>
+                    </div>
+                    </div>
+            </div>
+        </section>
+         <section class="Responsive-web">
+                <div class="text-col">
+            <p>Let's open our index.html with any web browser now. 
+                 We can see the background is completely white on our browser because,
+                  we have not added anything in the body of our html file:
+                </p>
+                </div>
+                </section>
+                <section class="Responsive-web">
+                    <div class="text-col">
+                     <img src="images2/Screenshot (521).png">
+                    </div>
+                    </section>
+                    <section class="Responsive-web">
+                    <div class="text-col">
+                    <p>Let's come back to the css file and in the css file, 
+                        we will add a background color for body. So, let's continue on our css next line. 
+                        The background color will be a light grey color.</p>
+                        </div>
+                         <div class="RRow">
+                            <div class="RResponsive-col">
+                                <p>Like this:</p>
+                            </div>
+                            <div class="Responsive-col">
+                                <h3>HTML</h3>
+                                <div class = "image-container">
+                                <div class="line">
+                                <img src="images2/Screenshot (522).png">
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+                        </section>
+                        <section class="Responsive-web">
+                        <div class="text-col">
+                        <p>Let's refresh the website and we can see a slight changes in the background color,
+                            which is light grey.</p>
+                            </div>
+                            </section>
+                            <section class="Responsive-web">
+                            <div class="text-col">
+                                <img src="images2/Screenshot (523).png">
+                            </div>
+                        </section>
+                        <section class="Responsive-web">
+                        <p>Now, let's go to our html file, and in this html file, we will come to the body tag 
+                            and within the body tag, we will create one navigation bar, where we will add logo, 
+                            some icons, one search box and user's profile image. Within the body tag, we will
+                             add all the html codes. First, we will create one navigation bar, for that, 
+                             we will use nav tag. </p>
+                             <br>
+                           <p> In this navigation bar, we will add two columns, which are left and right column. 
+                            In the left column, we will add logo and some icons. In the right column, we will 
+                            add one search box and one user icon.</p>
+                            <br>
+                           <p> Within the nav tag, we will  create two div. we will add the div with the 
+                            class name nav-left, so it will be for the left column. Then add div with the class name
+                             nav-right, it will be for the right side column. </p>
+                             <br>
+                           <p> In the left column, we will add one logo, for that, we will add one image tag 
+                            and include the file path of the logo. We have our images  folder, in the folder
+                             containing our html file and css file already so in the images folder,
+                              we have our logo image, which is logo.png  and so, we have to add the complete 
+                              image file path in our image tag. Then in the image tag, we will as well add 
+                              one class name which is “logo”. </p>
+                              <br>
+                           <p>After the logo, there will be some icons. We will add three icons, 
+                            so let's come under the image tag and create ul tag and within the ul tag, 
+                            we will add li tag which will be for the list. We will create several list tags 
+                            and in the list tags we will add image tags with the images file path. </p>
+                            </p>
+                            <div class="RRow">
+                                <div class="RResponsive-col">
+                                    <p>Like this:</p>
+                                </div>
+                            <div class="Responsive-col">
+                                <h3>HTML</h3>
+                                <div class = "image-container">
+                                <div class="line">
+                                <img src="images2/Screenshot (524).png">
+                                </div>
+                                </div>
+                                </div>
+                        </div>
+                        </section>
+                        <section class="Responsive-web">
+                        <div class = "RRow">
+                            <div class = "RResponsive-col">
+                                <p>Now, it will be:</p>
+                            </div>
+                        <div class="Responsive-col">
+                            <h3>HTML</h3>
+                            <div class = "image-container">
+                            <div class = "line">
+                            <img src="images2/Screenshot (525).png">
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                </section>
+                            <section class="Responsive-web">
+                                <div class="text-col">
+                            <p>We have added one logo and three icons in the left column.
+                                Next, in the right column, we have to add one search box and we will add 
+                                one user icon.
+                                But first, let's refresh the website and see what we currently have.</p>
+                                </div>
+                                </section>
+                                <section class="Responsive-web">
+                                    <div class="text-col">
+                                        <img src="images2/Screenshot (526).png">
+                                    </div>
+                                    </section>
+                                    <section class="Responsive-web">
+                                    <div class="text-col">
+                                <p>We can see the logo, which is in white color on our webpage and we can as 
+                                    well see the icons in white color. If we change the background color, 
+                                    then it will be visible clearly.
+                                    Let's come to the css file and on our next line in css we will write 
+                                    the nav tag and include the css properties.
+                                    </p>
+                                    </div>
+                                    <div class="RRow">
+                                    <div class="RResponsive-col">
+                                        <p>Like this:</p>
+                                    </div>
+                                    <div class="Responsive-col">
+                                        <h3>HTML</h3>
+                                        <div class = "image-container">
+                                        <div class="line">
+                                        <img src="images2/Screenshot (527).png">
+                                    </div>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    </section>
+                                    <section class="Responsive-web">
+                                    <div class="text-col">
+                                        <p>Let's refresh the website and now we can see the 
+                                            logo and icons clearly.</p>
+                                    </div>
+                                    </section>
+                                    <section class="Responsive-web">
+                                    <div class="text-col">
+                                        <img src="images2/Screenshot (529).png">
+                                    </div>
+         </section>
+         <section class="Responsive-web">
+            <div class="text-col">
+                <p>Next we will add some space from the left side and the right side
+                     and there will be some space from the top and bottom also.  Let's come to our 
+                     css file and scroll back to our nav tag in css file. In the nav, we will add
+                      a properties which is padding: 5px 5%;  ------ > In which the 5px space will be 
+                      from the top and bottom and 5% space which will be from the left and right side.</p>
+            </div>
+            <div class="RRow">
+                <div class="RResponsive-col">
+                    <p>Now, we have:</p>
+                </div>
+                <div class="Responsive-col">
+                    <h3>HTML</h3>
+                    <div class = "image-container">
+                    <div class="line">
+                    <img src="images2/Screenshot (530).png">
+                </div>
+                </div>
+                </div>
+                </div>
+                </section>
+                <section class="Responsive-web">
+                <div class="text-col">
+                    <p>Refresh the website and we can see we have some space from the left side. </p>
+                </div>
+                </section>
+                <section class="Responsive-web">
+                <div class="text-col">
+                    <img src="images2/Screenshot (531).png">
+                </div>
+                </section>
+                <section class="Responsive-web">
+                <div class="text-col">
+                    <P>Now, we have to set the width for the logo, also we will add css 
+                        for the small icons which is in the list tag.From our html file, 
+                        we have the class name logo.  Let's  come to our css on the next line, 
+                        after the curly closing bracket for nav tag in the css file, then we will write
+                         the class name logo in which we will add a dot at the front because it's a class name 
+                         and include the css properties.</P>
+                </div>
+                <div class="Row">
+                <div class="RResponsive-col">
+                    <p>Like this:</p>
+                </div>
+                <div class="Responsive-col">
+                    <h3>CSS</h3>
+                    <div class = "image-container">
+                    <div class="line">
+                    <img src="images2/Screenshot (1008).png">
+                </div>
+                </div>
+                </div>
+                </div>
+         </section>
+         <section class = "Responsive-web">
+            <div class="text-col">
+                <p>We added some space from the right side, 
+                    by setting margin-right to be 45px; refresh the website and 
+               we can see that the logo size has been reduced.</p>
+            </div>
+         </section>
+         <section class = "Responsive-web">
+            <div class="text-col">
+                <img src="images2/Screenshot (532).png">
+         </section>
+         <section class="Responsive-web">
+            <div class="text-col">
+            <p>Next, we have to take these icons in the logo to the same line. 
+                For that, we can see in our html file, we have the class name nav-left.
+                 Then we will come to our css file, after the curly closing bracket for class name logo.
+                  We will write the class name nav-left and include the css properties.</p>
+            </div>
+                <div class="Row">
+                    <div class="RResponsive-col">
+                        <p>Like this:</p>
+                    </div>
+                    <div class="Responsive-col">
+                        <h3>CSS</h3>
+                        <div class = "image-container">
+                        <div class="line">
+                        <img src="images2/Screenshot (1009).png">
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </section>
+                    <section class="Responsive-web">
+                    <div class="text-col">
+                    <p>Refresh the website and we can see the icons and the logo are in the same 
+                        horizontal line, but vertically aligned.</p>
+                    </div>
+         </section>
+         <section class = "Responsive-web">
+            <div class="text-col">
+                <img src="images2/Screenshot (533).png">
+         </section>
+         <section class="Responsive-web">
+            <div class="text-col">
+                <p>Next, we have to make it horizontally aligned. 
+                    Let's come to our css file and write the class name nav-left again then, 
+                    add the ul tag and li tag beside it.
+                    </p>
+            </div>
+            <div class="Row">
+                <div class="RResponsive-col">
+                    <p>Like this:</p>
+                </div>
+                <div class="Responsive-col">
+                    <h3>CSS</h3>
+                    <div class = "image-container">
+                    <div class="line">
+                    <img src="images2/Screenshot (1010).png">
+                </div>
+                </div>
+                </div>
+                </div>
+                </section>
+                <section class="Responsive-web">
+                <div class="text-col">
+                    <img src="images2/Screenshot (534).png">
+                </div>
+         </section>
+         <section class="Responsive-web">
+            <div class="text-col">
+                <p>Next, we have to set the size of the small icons.
+                     In our css file, we will write the class name nav-left again and this time,
+                      we will add the ul tag, li tag and the img tag beside it because, 
+                      in this list tag we have the image.
+                    </p>
+            </div>
+            <div class="Row">
+                <div class="RResponsive-col">
+                    <p>Like this:</p>
+                </div>
+                <div class="Responsive-col">
+                    <h3>CSS</h3>
+                    <div class = "image-container">
+                    <div class="line">
+                    <img src="images2/Screenshot (1012).png">
+                </div>
+                </div>
+                </div>
+                </div>
+                </section>
+                <section class="Responsive-web">
+                <div class="text-col">
+                    <p>We set margin to be zero from top and bottom then, 15px from the left and right side.
+                        Refresh the website and check. We can see the icons looks good as well as the logo.
+                        </p>
+                </div>
+                </section>
+                <section class="Responsive-web">
+                    <div class="text-col">
+                        <img src="images2/Screenshot (541).png">
+                    </div>
+                    </section>
+            <section class="Responsive-web">
+                <div class="text-col">
+                    <p>Next, we will add content for the right side of the navigation bar.
+                        Let's come back to the html file and we can see we have created the div 
+                        with the class name “nav-right”. Therefore, within the div with the 
+                        class name “nav-right” we will add some contents. We will add one search box 
+                        and one user icon. That means we will create one div with the class name search box, 
+                        then under it, we will add input tag in which the input type will be set as “text”. 
+                         Beside it, there will be a placeholder  which will be “search”. But in this input box, 
+                          before the input tag, we will add one search icon with the img tag which is 
+                           "search.png" from our image folder where we have added the images and image icons.
+                        </p>
+                </div>
+                <div class="Row">
+                    <div class="RResponsive-col">
+                        <p>So we will have:</p>
+                    </div>
+                    <div class="Responsive-col">
+                        <h3>HTML</h3>
+                        <div class = "image-container">
+                        <div class="line">
+                        <img src="images2/Screenshot (1013).png">
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+            </section>
+            <section class="Responsive-web">
+                <div class="text-col">
+                <p>Then after the closing div tag for  div with the class name "search-box" which is before 
+                    the closing div tag for div with the class name "nav-right" we will create another div, 
+                    with the class name "nav-user-icon" then within this div, we will add one img tag and 
+                    the folder name followed by the file name which is "profile-pic.png"</p>
+                </div>
+                <div class="Row">
+                    <div class="RResponsive-col">
+                        <p>So we have:</p>
+                    </div>
+                    <div class="Responsive-col">
+                        <h3>HTML</h3>
+                        <div class = "image-container">
+                        <div class="line">
+                        <img src="images2/Screenshot (1014).png">
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="Row">
+                        <div class="RResponsive-col">
+                            <p>Full Code Here:</p>
+                        </div>
+                        <div class="Responsive-col">
+                            <h3>HTML</h3>
+                            <div class = "image-container">
+                            <div class="line">
+                            <img src="images2/Screenshot (1015).png">
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        </section>
+                        <section class="Responsive-web">
+                        <div class="text-col">
+                            <p>Now, we have added the search box  and one profile picture. 
+                                Let's refresh the website and we can see how it appears on the right side.</p>
+                        </div>
+            </section>
+            <section class="Responsive-web">
+                <div class="text-col">
+                    <img src="images2/Screenshot (542).png">
+                </div>
+            </section>
+            <section class="Responsive-web">
+                <div class="text-col">
+                    <p>Now, we have to set the size for the user icon and we have to align everything
+                         in the horizontal line. 
+                        In our html file, we can see we have the div with the class name “nav-right”. 
+                        So for this class name, we have to set the display as flex in our css file.
+                        We can as well see that in our css file, we have already added display to be set as flex
+                         in our class name nav-left and we have also included some css properties.
+                        Now, we will scroll to the css line where we have added the class name nav-left,
+                         we will  add a comma beside it, followed by the class name which is nav-right
+                          with a dot at the front.
+                        </p>
+                </div>
+                <div class="Row">
+                    <div class="RResponsive-col">
+                        <p>Like this:</p>
+                    </div>
+                    <div class="Responsive-col">
+                        <h3>CSS</h3>
+                        <div class = "image-container">
+                        <div class="line">
+                        <img src="images2/Screenshot (1016).png">
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </section>
+                    <section class="Responsive-web">
+                    <div class="text-col">
+                        <p>So now, we have display set as flex and align-items set as center in the css properties 
+                            for class name nav-left and class name nav-right which is for the right column 
+                            while nav-left is for the left column.
+                            Let's refresh the website and we can see how it's coming in the same horizontal line:
+                            </p>
+                    </div>
+            </section>
+            <section class="Responsive-web">
+                <div class="text-col">
+                <img src="images2/Screenshot (543).png">
+                </div>
+            </section>
+            <section class="Responsive-web">
+                <div class="text-col">
+                    <p>Next, we have to set the size. Let's come back to our code file. 
+                        In our html file, we can see we have added the class name “nav-user-icon”. 
+                        So let's come to our css file and write the class name nav-user-icon then, we will add img 
+                        which is the image tag beside it because, we have the icons with the img tag, then we will 
+                        proceed with the css properties:
+                        </p>
+                </div>
+                <div class="Row">
+                    <div class="RResponsive-col">
+                        <p>Like this:</p>
+                    </div>
+                    <div class="Responsive-col">
+                        <h3>CSS</h3>
+                        <div class = "image-container">
+                        <div class="line">
+                        <img src="images2/Screenshot (1017).png">
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+        </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+                <p>Border-radius is set to be 50% so that the image will be circular. 
+                    It will give a round image. Reload the webpage and we can see small 
+                    user icon in the right side and it is in circular size.                    
+                    </p>
+            </div>
+            </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+                <img src="images2/Screenshot (544).png"> 
+            </div>
+        </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+                <p>Now, we will add css for the search box. 
+                    Let's come back to our code file. In the html file, 
+                    we can see we have the div with the class name “search-box”. We will come to
+                     our css file and write the class name search-box then, include the css properties:                  
+                    </p>
+            </div>
+            <div class="Row">
+                <div class="RResponsive-col">
+                    <p>Like this:</p>
+                </div>
+                <div class="Responsive-col">
+                    <h3>CSS</h3>
+                    <div class = "image-container">
+                    <div class="line">
+                    <img src="images2/Screenshot (1018).png">
+                </div>
+                </div>
+                </div>
+                </div>
+            </section>
+            <section class="Responsive-web">
+                <div class="text-col">
+                    <p>Padding set as zero from top and bottom and 15px from left and right side.
+                        Then let's write the class name search-box again and add img tag beside it.
+                         Because, we have one search icon in this search box.           
+                        </p>
+                </div>
+                <div class="Row">
+                    <div class="RResponsive-col">
+                        <p>We will write:</p>
+                    </div>
+                    <div class="Responsive-col">
+                        <h3>CSS</h3>
+                        <div class = "image-container">
+                        <div class="line">
+                        <img src="images2/Screenshot (1019).png">
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+            </section>
+            <section class="Responsive-web">
+            <div class="text-col">
+                <p>Refresh the website and we can see the search-box width has been increased 
+                    and the search icon is there.</p>
+            </div>
+            </section>
+            <section class="Responsive-web">
+                <div class="text-col">
+                    <img src="images2/Screenshot (545).png">
+                </div>
+                </section>
+                <section class="Responsive-web">
+                <div class="text-col">
+                <p>Now, we have to add the css for the input box.
+                    Let's come back to our css file and write the class name 
+                    search-box again then this time, we will add input beside it because,
+                    we have one input field in the html file and then add the css properties:</p>
+                    </div>
+                    <div class="Row">
+                        <div class="RResponsive-col">
+                            <p>Like this:</p>
+                        </div>
+                        <div class="Responsive-col">
+                            <h3>CSS</h3>
+                            <div class = "image-container">
+                            <div class="line">
+                            <img src="images2/Screenshot (1020).png">
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        </section>
+             <section class="Responsive-web">
+             <div class="text-col">
+            <p>Let's refresh the website and we can see that 
+                the search box looks good. But, now we need some space between 
+                the search box and the icon which is the user icon:</p>
+            </div>
+            </section>
+            <section class="Responsive-web">
+                <div class="text-col">
+                    <img src="images2/Screenshot (546).png">
+               </div>
+               </section>
+               <section class="Responsive-web">
+                <div class="text-col">
+               <p>Let's come back to our css file and scroll up 
+                to where we have the class name nav-user-icon with the
+                 img tag beside it and its css  properties. Then after the closing clurly 
+                 bracket for this class name nav-user-icon  img, we will come under it and write:</p>
+               </div>
+               <div class="Row">
+                <div class="RResponsive-col">
+                    <p>Like this:</p>
+                </div>
+                <div class="Responsive-col">
+                    <h3>CSS</h3>
+                    <div class = "image-container">
+                    <div class="line">
+                    <img src="images2/Screenshot (1021).png">
+                </div>
+                </div>
+                </div>
+                </div>
+               </section>
+               <section class="Responsive-web">
+                <div class="text-col">
+               <p>For space to be added from the left side, we set margin-left to be 30px
+                Now, we have the code after the curly closing bracket for 
+                class name nav-user-icon img like this:
+                </p>
+               </div>
+               <div class="Row">
+                <div class="RResponsive-col">
+                    <p>Like this:</p>
+                </div>
+                <div class="Responsive-col">
+                    <h3>CSS</h3>
+                    <div class = "image-container">
+                    <div class="line">
+                    <img src="images2/Screenshot (1022).png">
+                </div>
+                </div>
+                </div>
+                </div>
+               </section>
+               <section class="Responsive-web">
+                <div class="text-col">
+               <p>Refresh the website and we can see that there is some space between 
+                the user icon and the search box.
+                </p>
+               </div>
+               </section>
+               <section class="Responsive-web">
+                <div class="text-col">
+                    <img src="images2/Screenshot (547).png">
+               </div>
+               </section>
+               <section class="Responsive-web">
+                <div class="text-col">
+               <p>Next, we will add one small green dot that will show whether the user is 
+                online or the user is active. Let's come back to our html file and in the div
+                 with the class name “nav-user-icon” we will add one more class name inside the div.
+                  so we will write online beside nav-user icon as part of the class name because the online 
+                  icon will be to show that the user is online.So, let's go back to the div with 
+                  the class name nav-user-icon and add:
+                </p>
+               </div>
+               <div class="Row">
+                <div class="Responsive-col">
+                    <h3>HTML</h3>
+                    <div class = "image-container">
+                    <div class="line">
+                    <img src="images2/Screenshot (1023).png">
+                </div>
+                </div>
+                </div>
+                <div class="RResponsive-col">
+                    <p>Like this:</p>
+                </div>
+                </div>
+               </section>
+               <section class="Responsive-web">
+                <div class="text-col">
+               <p>Now, we will come to our css file and write the class name online 
+                then include the css properties.We can add the css properties with the same properties 
+                together with the nav-user-icon class name in the css file but, we are using another 
+                class name separately which is online because, we have to repeat it in the other part of the website.
+                So we will just use the online class name in the other place and we will get the same design.
+                </p>
+               </div>
+               <div class="Row">
+                <div class="RResponsive-col">
+                    <p>So on our next css line, let's write:</p>
+                </div>
+                <div class="Responsive-col">
+                    <h3>CSS</h3>
+                    <div class = "image-container">
+                    <div class="line">
+                    <img src="images2/Screenshot (1024).png">
+                </div>
+                </div>
+                </div>
+                </div>
+               </section>
+               <section class="Responsive-web">
+                <div class="text-col">
+               <p>Then let's write the class name online again and beside it, we will use the 
+                pseudo element which is ----- > after
+                </p>
+               </div>
+               <div class="Row">
+                <div class="RResponsive-col">
+                    <p>Like this:</p>
+                </div>
+                <div class="Responsive-col">
+                    <h3>CSS</h3>
+                    <div class = "image-container">
+                    <div class="line">
+                    <img src="images2/Screenshot (1028).png">
+                </div>
+                </div>
+                </div>
+                </div>
+               </section>
+               <section class="Responsive-web">
+                <div class="text-col">
+               <p>Here, we added the content  property but, the content will be empty. 
+                There is nothing in it. After writing then, let's refresh the website 
+                and we can see a green dot at the top of the user icon.           
+                </p>
+               </div>
+               </section>
+               <section class="Responsive-web">
+                <div class="text-col">
+                    <img src="images2/Screenshot (549).png">
+                </div>
+                </section>
+                <section class="Responsive-web">
+                    <div class="text-col">
+                   <p>NOW, WE HAVE ADDED EVERYTHING IN THIS NAVIGATION BAR. <br>
+                    </p>
+                    <br>
+                    <p>
+                    Next, we will come to our html file and create three columns which are:
+                     left column, right column and the center column where we will add the menu content.
+                    Let's come to the html file and we can see where we have started the opening of 
+                    the nav tag and we can as well see where the nav tag closes, which is before 
+                    the closing body tag and closing html tag.      
+                    </p>
+                   </div>
+                   <div class="Row">
+                    <div class="Responsive-col">
+                        <h3>HTML</h3>
+                        <div class = "image-container">
+                        <div class="line">
+                        <img src="images2/Screenshot (1029).png">
+                    </div>
+                    </div>
+                    </div>
+                    <div class="RResponsive-col">
+                        <p>Here:</p>
+                    </div>
+                    </div>
+                   </section>
+                   <section class="Responsive-web">
+                    <div class="text-col">
+                 <p>So before the closing body tag, but after the closing nav tag, we will start 
+                our next line. Which means we will come under the closing nav tag and create
+                another div with the class name container.
+                We will create the div with the class name container and within the container,
+                we will create another div with the class name “left-sidebar” and then create
+                another div with the class name “main-content” and again, create another div 
+                with the class name “right-sidebar” because like it has been stated earlier,
+                we will be creating three columns. “main-content” is not a side bar.
+                </p>
+                    </div>
+                    <div class="Row">
+                        <div class="Responsive-col">
+                            <h3>HTML</h3>
+                            <div class = "image-container">
+                            <div class="line">
+                            <img src="images2/Screenshot (1032).png">
+                        </div>
+                        </div>
+                        </div>
+                        <div class="RResponsive-col">
+                            <p>Let's write:</p>
+                        </div>
+                        </div>
+                   </section>
+                   <section class="Responsive-web">
+                    <div class="text-col">
+                        <p>We can see right now, if we refresh the website, there is nothing appearing 
+                            on our website.
+                            Let's come to our css file and write the class name container then 
+                            include css properties for it:
+                            </p>
+                        </div>
+                        <div class="Row">
+                            <div class="RResponsive-col">
+                                <p>Like this:</p>
+                            </div>
+                            <div class="Responsive-col">
+                                <h3>CSS</h3>
+                                <div class = "image-container">
+                                <div class="line">
+                                <img src="images2/Screenshot (1033).png">
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                        </section>
+            <section class="Responsive-web">
+            <div class="text-col">
+            <p>We added padding to add some space from the left side and right side and 
+                from the top also.
+                Next, we will add css for the columns. We will write the class name left-sidebar 
+                and include the css properties like this:
+            </p>
+            </div>
+            <div class="Row">
+                <div class="RResponsive-col">
+                    <p>Like this:</p>
+                </div>
+                <div class="Responsive-col">
+                    <h3>CSS</h3>
+                    <div class = "image-container">
+                    <div class="line">
+                    <img src="images2/Screenshot (1034).png">
+                </div>
+                </div>
+                </div>
+                </div>
+            </section>
+            <section class="Responsive-web">
+                <div class="text-col">
+                <p>We added background color so that we can see the width of the column. 
+                    We also set position as sticky because, the left and right side columns 
+                    will not move. It will not scroll, it will be sticky. Whenever we add the property 
+                    sticky, we have to add the position from the top.
+                    Now, we will add the same properties for right-sidebar  class name also:  
+                </p>
+                </div>
+                <div class="Row">
+                    <div class="RResponsive-col">
+                        <p>Like this:</p>
+                    </div>
+                    <div class="Responsive-col">
+                        <h3>CSS</h3>
+                        <div class = "image-container">
+                        <div class="line">
+                        <img src="images2/Screenshot (1035).png">
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+            </section>
+            <section class="Responsive-web">
+                <div class="text-col">
+                    <p>Now, we will add the css for main-content class name.</p>
+                    </div>
+                    <div class="Row">
+                        <div class="RResponsive-col">
+                            <p>Like this:</p>
+                        </div>
+                        <div class="Responsive-col">
+                            <h3>CSS</h3>
+                            <div class = "image-container">
+                            <div class="line">
+                            <img src="images2/Screenshot (1036).png">
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                    </section>
+            <section class="Responsive-web">
+            <div class="text-col">
+            <p>We have added 25% of space for the right column as well as 25% of space for the
+            left column. Now, we have only 50% of space available, so we set the flex-basis 
+            to be 47%. The remaining 3% will be space between the columns.
+            Initially, if we had not set  height to be 100vh, there will be nothing 
+            appearing on our website. But we have set right to be 100vh on both the 
+            class name left-side bar and class name right-side-bar.
+            Refresh the website and we can see the left column and the right column.
+            </p>
+            </div>
+            </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+                <img src="images2/Screenshot (551).png">
+            </div>
+        </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+            <p> But we can see the top navigation bar scrolling whenever we scroll the webpage.
+                 This navigation bar should be fixed and not scroll. (---- > ATTACH THE VIDEO)
+                Now, let's come back to our css file and scroll back to where we have our nav tag,
+                 then we will include some more properties to the css property. We will add position 
+                 and the position will be set as sticky;  add top which will be set as zero and also 
+                 add z-index to be set as 100;
+            </p>
+            </div>
+            <div class="Row">
+                <div class="RResponsive-col">
+                    <p>Now, in our nav tag, we have:</p>
+                </div>
+                <div class="Responsive-col">
+                    <h3>CSS</h3>
+                    <div class = "image-container">
+                    <div class="line">
+                    <img src="images2/Screenshot (1039).png">
+                </div>
+                </div>
+                </div>
+                </div>
+            </section>
+            <section class="Responsive-web">
+                <div class="text-col">
+                <p>Now, if we refresh the website and scroll, we can see the top navigation
+                     bar is not scrolling whenever we scroll the webpage. The top navigation bar 
+                     is now fixed at its position. It looks fine.
+                    ( ----- > ATTACH THE VIDEO)
+                        
+                    Now, let's remove the height from our webpage.
+                    Let's come back to our css file and scroll to our class name left-sidebar 
+                    where we have add height in the css properties. We will remove the height 
+                    property in the left-side-bar, it is not required. We will as well come 
+                    to the right-side bar class name and in its css properties, we will remove 
+                    the height which has been set to be 100vh; it is not required.  
+                </p>
+                </div>
+                <div class="Row">
+                    <div class="RResponsive-col">
+                        <p>So our content is like this again:</p>
+                    </div>
+                    <div class="Responsive-col">
+                        <h3>CSS</h3>
+                        <div class = "image-container">
+                        <div class="line">
+                        <img src="images2/Screenshot (1040).png">
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                </section>
+        <section class="Responsive-web">
+        <div class="text-col">
+        <p>On our website, we will add content in the left and right colum. 
+            Let's come back to our html file after the div with the class name “container” but, 
+            before the div with the class name “left-sidebar” we will add a comment, the comment 
+            will be  --------left-sidebar------------
+            We will also add a comment on top of the div with the class name “main-content” the 
+            comment will be -------main content--------
+            Then we will add a comment on top of the div with the class name “right-sidebar” and 
+            the comment will be  --------right-sidebar----------
+            </p>
+        </div>
+        <div class="Row">
+            <div class="Responsive-col">
+                <h3>HTML</h3>
+                <div class = "image-container">
+                <div class="line">
+                <img src="images2/Screenshot (1043).png">
+            </div>
+            </div>
+            </div>
+            <div class="RResponsive-col">
+                <p>Like this:</p>
+            </div>
+            </div>
+        </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+            <p>Then within the left-sidebar, we will add some html elements. In the left-sidebar, 
+                we have to add some links. For that, we will add one div with the class name "imp-links" 
+                which means important links.
+                Then within this link, we will add one anchor tag with the hash tag, the hash is an 
+                example of what can be added in the link that means, we can add different page link
+                 instead of an hash tag.
+                Then in this link, there will be a text and one image also, so we will add one img tag 
+                in the link. Img tag followed by the images folder and file name of the image.
+                 The file name of our image is news.png.  The image will be followed by a text in 
+                 which our text is “latest News” in the anchor tag.
+                Next, we will add other links also, so within the div with the class name
+                 "imp-links" we will add several other anchor tags which will as well contain
+                  images and texts for the links as well.
+                
+                </p>
+            </div>
+            <div class="Row">
+                <div class="Responsive-col">
+                    <h3>HTML</h3>
+                    <div class = "image-container">
+                    <div class="line">
+                    <img src="images2/Screenshot (1045).png">
+                </div>
+                </div>
+                <div class="image-container">
+                <div class="line">
+                    <img src="images2/Screenshot (1046).png">
+                </div>
+                </div>
+                </div>
+                <div class="RResponsive-col">
+                    <p>Like this:</p>
+                </div>
+                </div>
+            </section>
+            <section class="Responsive-web">
+                <div class="text-col">
+                    <p>Refresh the website and we can see the links in the left side on the website.</p>
+                </div>
+            </section>
+            <section class="Responsive-web">
+                <div class="text-col">
+                    <img src="images2/Screenshot (560).png">
+                </div>
+            </section>
+            <section class="Responsive-web">
+                <div class="text-col">
+                    <p>Next, we have to add the css properties for the links:
+                        In our html file, we have the div with the class name "imp-links" then, 
+                        we will come to our css file on our next line,  and write the class name 
+                        imp-links then add a tag beside it. That's because we have added anchor tag 
+                        within it in our html file as well.
+                        </p>
+                </div>
+                <div class="Row">
+                    <div class="RResponsive-col">
+                        <p>Like this:</p>
+                    </div>
+                    <div class="Responsive-col">
+                        <h3>CSS</h3>
+                        <div class = "image-container">
+                        <div class="line">
+                        <img src="images2/Screenshot (1047).png">
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+            </section>
+            <section class="Responsive-web">
+                <div class="text-col">
+                    <p>Next, we will write the imp-links class name 
+                        again with the a tag and beside it, we will add img tag and 
+                        then include the css properties:</p>
+                </div>
+                <div class="Row">
+                    <div class="RResponsive-col">
+                        <p>Like this:</p>
+                    </div>
+                    <div class="Responsive-col">
+                        <h3>CSS</h3>
+                        <div class = "image-container">
+                        <div class="line">
+                        <img src="images2/Screenshot (1048).png">
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+            </section>
+            <section class="Responsive-web">
+                <div class="text-col">
+                    <p>Refresh the website and we can see how it looks like:</p>
+                </div>
+                </section>
+                <section class="Responsive-web">
+                    <div class="text-col">
+                        <img src="images2/Screenshot (561).png">
+                    </div>
+                    </section>
+        <section class="Responsive-web">
+        <div class="text-col">
+        <p>Next, we have to remove the background color that we have only 
+            added to display that we have a column right there. Let's come back to 
+            our css file and we will scroll to the left-sidebar class name and we can 
+            see in its css properties that we have added a background color, so we will
+             remove it because it is not required. Also, we will come to the right-sidebar 
+             class name and remove the background color in its properties as well, 
+             it is not required in it.</p>
+        </div>
+        <div class="Row">
+            <div class="RResponsive-col">
+                <p>Now we have:</p>
+            </div>
+            <div class="Responsive-col">
+                <h3>CSS</h3>
+                <div class = "image-container">
+                <div class="line">
+                <img src="images2/Screenshot (1049).png">
+            </div>
+            </div>
+            </div>
+            </div>
+        </section>
+<section class="Responsive-web">
+    <div class="text-col">
+        <p>Refresh the website and we can see how it looks like now:</p>
+    </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+        <img src="images2/Screenshot (562).png">
+    </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+        <p>Next we will add one more link at the bottom of the left column. 
+            We will come back to the html file and we have anchor tags within the 
+            div with the class name “imp-links” the after the last a tag which 
+            is anchor tag, we will add one more a tag. So it will be added together 
+            with the previous a tags.  In this a tag, we will add only one text which 
+            is "See More"
+        </p>
+    </div>
+    <div class="Row">
+        <div class="Responsive-col">
+            <h3>HTML</h3>
+            <div class = "image-container">
+            <div class="line">
+            <img src="images2/Screenshot (1050).png">
+        </div>
+        </div>
+        </div>
+        <div class="RResponsive-col">
+            <p>Like this:</p>
+        </div>
+        </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+        <p>Refresh the website and we can see the link “See More” on our website:
+        </p>
+    </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+            <img src="images2/Screenshot (563).png">
+        </div>
+        </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+                <p>Next, we have to add a color for the last link on our website, 
+                    which is "See More"
+                    Let's come to our css file and write:	 
+                </p>
+            </div>
+            <div class="Row">
+                <div class="RResponsive-col">
+                    <p>Let's come to our css file and write:</p>
+                </div>
+                <div class="Responsive-col">
+                    <h3>CSS</h3>
+                    <div class = "image-container">
+                    <div class="line">
+                    <img src="images2/Screenshot (1052).png">
+                </div>
+                </div>
+                </div>
+                </div>
+            </section>
+            <section class="Responsive-web">
+                <div class="text-col">
+                    <p>We added the property last-child to the imp-links class name with the
+                         anchor tag so, it will select the last anchor tag on our website.
+                        Refresh the website and we can see the color for the last link which
+                         is "See More"
+                        </p>
+                </div>
+                </section>
+                <section class="Responsive-web">
+                    <div class="text-col">
+                    <img src="images2/Screenshot (564).png"> 
+                    </div>
+                    </section>
+                    <section class="Responsive-web">
+                        <div class="text-col">
+                        <p>Next, we will add a line at the bottom of "See More" link.
+                            We will come back to our css file and we will write:
+                            </p>
+                        </div>
+                        <div class="Row">
+                            <div class="RResponsive-col">
+                                <p> We will come back to our css file and we will write:</p>
+                            </div>
+                            <div class="Responsive-col">
+                                <h3>CSS</h3>
+                                <div class = "image-container">
+                                <div class="line">
+                                <img src="images2/Screenshot (1053).png">
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                        </section>
+                        <section class="Responsive-web">
+                            <div class="text-col">
+                                <p>Now, refresh the website
+                                     and we can see horizontal line appear at the bottom of the link. 
+                                     After the horizontal line, we will add some other links also with 
+                                     the small images.</p>
+                            </div>
+                            </section>
+                        <section class="Responsive-web">
+                         <div class="text-col">
+                            <img src="images2/Screenshot (565).png">
+                                </div>
+                                    </section>
+                <section class="Responsive-web">
+                <div class="text-col">
+                <p>Let's come back to the html file and after the closing div tag for the div 
+                    with the class name "imp-links" we will create another div.  That means our 
+                    content is still within the div with the class name "left-sidebar".  
+                    Now, Let's create the div with the class name “shortcut-links” and within 
+                    the div we will add one text and so we will use a p tag which is a 
+                    paragraph tag and we will add the text "Your Shortcuts".
+                    After that, we will add some links along with image. We will use the 
+                    a tag which is the anchor tag to create link. Then beside it, we will 
+                    add the img tag along with the images folder and file path. Our file
+                     path is shortcut-1.png then we will add a text in the anchor tag also 
+                     and add a text in the anchor tag also, in the text we will 
+                     add "Web Developers". We will create three more other links making
+                      four links in total within the div with the class name "shortcut-links". 
+                      These other links being created will as well contain several other 
+                      images with the file path name respectively.
+                    </p>
+                </div>
+                <div class="Row">
+                    <div class="Responsive-col">
+                        <h3>HTML</h3>
+                        <div class = "image-container">
+                        <div class="line">
+                        <img src="images2/Screenshot (1054).png">
+                    </div>
+                    </div>
+                    </div>
+                    <div class="RResponsive-col">
+                        <p>Like this:</p>
+                    </div>
+                    </div>
+                </section>
+                <section class="Responsive-web">
+                    <div class="text-col">
+                        <p>Refresh the website and we can see the images and links on our webpage:</p>
+                    </div>
+                </section>
+                <section class="Responsive-web">
+                    <div class="text-col">
+                        <img src="images2/Screenshot (566).png">
+                    </div>
+                    <div class="Row">
+                        <div class="Responsive-col">
+                            <h3>HTML</h3>
+                            <div class = "image-container">
+                            <div class="line">
+                            <img src="images2/Screenshot (1055).png">
+                        </div>
+                        </div>
+                            <div class = "image-container">
+                            <div class="line">
+                            <img src="images2/Screenshot (1056).png">
+                        </div>
+                        </div>
+                        </div>
+                        <div class="RResponsive-col">
+                            <p>Here is the perfect view of the html code:</p>
+                        </div>
+                        </div>
+                </section>
+                <section class="Responsive-web">
+                    <div class="text-col">
+                        <p>Next, we have to add css properties:
+                            Le's come to our css file and add the class name shortcut-links 
+                            in our css file. We will apply the same css properties in which we have 
+                            applied in the class name imp-links with a tag in our css file.
+                            Let's scroll to the line where we have class name imp-links in our css file 
+                            and we will include a comma beside it, then add the class name shortcut-links
+                             and add the a tag which is the anchor tag beside the class name 
+                             shortcut-links as well. The anchor tag is for the shortcut-links images.
+                            </p>
+                    </div>
+                    <div class="Row">
+                        <div class="RResponsive-col">
+                            <p>Like this:</p>
+                        </div>
+                        <div class="Responsive-col">
+                            <h3>CSS</h3>
+                            <div class = "image-container">
+                            <div class="line">
+                            <img src="images2/Screenshot (1057).png">
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                </section>
+                <section class="Responsive-web">
+                    <div class="text-col">
+                        <p>Refresh the website and we will see how it looks like now</p>
+                    </div>
+                </section>
+                <section class="Responsive-web">
+                    <div class="text-col">
+                        <img src="images2/Screenshot (568).png">
+                    </div>
+                </section>
+                <section class="Responsive-web">
+                    <div class="text-col">
+                        <p>Next, we have to set the size of the images and we will add css 
+                            for the p tag also.
+                            We will come to our css file and on our next css line which 
+                            is after the closing curly bracket for the class name imp-links.  
+                            We will write:
+                            </p>
+                    </div>
+                    <div class="Row">
+                        <div class="RResponsive-col">
+                            <p>We will write:</p>
+                        </div>
+                        <div class="Responsive-col">
+                            <h3>CSS</h3>
+                            <div class = "image-container">
+                            <div class="line">
+                            <img src="images2/Screenshot (1059).png">
+                        </div>
+                        </div>
+                    </div>
+                        </div>
+                </section>
+                <section class="Responsive-web">
+                    <div class="text-col">
+                        <p>Here, we set margin from the right side to be 15px.
+                            Refresh the website and we can see it looks good.                            
+                            </p>
+                    </div>
+                    </section>
+                    <section class="Responsive-web">
+                        <div class="text-col">
+                            <img src="images2/Screenshot (570).png">
+                            </div>
+                            </section>
+                            <section class="Responsive-web">
+                        <div class="text-col">
+                           <p>Next, we have to add the css for the p tag which is the text
+                             written as "Your Shortcuts"</p>
+                            </div>
+                            <div class="Row">
+                                <div class="RResponsive-col">
+                                    <p>We will come to our css file and write:</p>
+                                </div>
+                                <div class="Responsive-col">
+                                    <h3>CSS</h3>
+                                    <div class = "image-container">
+                                    <div class="line">
+                                    <img src="images2/Screenshot (1060).png">
+                                </div>
+                                </div>
+                            </div>
+                                </div>
+                            </section>
+                            <section class="Responsive-web">
+                                <div class="text-col">
+                                   <p>We set margin to be 25px from the top and bottom, then zero from the 
+                                    left and right side.
+                                    Refresh the website and we can see the text looks good.
+                                    </p>
+                                    </div>
+                                    </section>
+                <section class="Responsive-web">
+                    <div class="text-col">
+                        <img src="images2/Screenshot (574).png">
+                    </div>
+                </section>
+                <section class="Responsive-web">
+                    <div class="text-col">
+                       <p>So, we have added all the contents in the left column. 
+                        After adding all the contents in the left-sidebar, we will add contents 
+                        in the right-sidebar. In the right-sidebar firstly, we will add one title. 
+                        Let's come back to the html file and after our right-sidebar comment, we can see
+                         the div with the class name "right-sidebar". So within this div with 
+                         the class name "right-sidebar" we will add one div with the 
+                         class name "sidebar-title". Then within the div with the
+                          class name "sidebar-title" we will add one text in h4 tag and the text 
+                          will be "Events". There will be one list as well so, we will come under
+                           the h4 tag and add one a tag which is anchor tag. In this anchor tag,
+                            we will add one text which is "See All".
+                        </p>
+                        </div>
+                        <div class="Row">
+                            <div class="Responsive-col">
+                                <h3>HTML</h3>
+                                <div class = "image-container">
+                                <div class="line">
+                                <img src="images2/Screenshot (1061).png">
+                            </div>
+                            </div>
+                        </div>
+                        <div class="RResponsive-col">
+                            <p>Like this:</p>
+                        </div>
+                            </div>
+                        </section>
+                        <section class="Responsive-web">
+                            <div class="text-col">
+                                    <h3>PERFECT VIEW OF CODE HERE:</h3>
+                                    </div>
+                            </section>
+                            <section class="Responsive-web">
+                            <div class="text-col">
+                                <img src="images2/Screenshot (1075).png">
+                        </div>
+                        </section>
+                        <section class="Responsive-web">
+                       <div class="text-col">
+                                <img src="images2/Screenshot (1076).png">
+                        </div>
+                        </section>
+                        <section class="Responsive-web">
+                            <div class="text-col">
+                                     <img src="images2/Screenshot (1077).png">
+                             </div>
+                             </section>
+        <section class="Responsive-web">
+        <div class="text-col">
+        <p>After that, let's come to our next line in css file:
+            Write the class name sidebar-title and include the css properties:            
+            </p>
+        </div>
+        <div class="Row">
+            <div class="RResponsive-col">
+                <p>Like this:</p>
+            </div>
+            <div class="Responsive-col">
+                <h3>CSS</h3>
+                <div class = "image-container">
+                <div class="line">
+                <img src="images2/Screenshot (1078).png">
+            </div>
+            </div>
+        </div>
+            </div>
+        </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+                <p>Here, we added h4 tag with the 
+                    class name sidebar-title in our css file, because we have title in
+                     h4 tag in our html file.</p>
+                </div>
+                <div class="Row">
+                    <div class="RResponsive-col">
+                        <p>Like this:</p>
+                    </div>
+                    <div class="Responsive-col">
+                        <h3>CSS</h3>
+                        <div class = "image-container">
+                        <div class="line">
+                        <img src="images2/Screenshot (1079).png">
+                    </div>
+                    </div>
+                </div>
+                    </div>
+                </section>
+                <section class="Responsive-web">
+                    <div class="text-col">
+                        <p>Here, we added one  a tag with the class name sidebar-title in 
+                            our css file, because we have anchor tag in the sidebar-title
+                             in our html file.
+                            If we refresh the website, then we can see the texts "Events" and 
+                            "See All" on the right side of our website.
+                            </p>
+                        </div>
+                        </section>
+                        <section class="Responsive-web">
+                            <div class="text-col">
+                                <img src="images2/Screenshot (576).png">
+                                </div>
+                                </section>
+            <section class="Responsive-web">
+            <div class="text-col">
+            <p>Next, we will add one background color on the right sidebar.
+                To add background color, let's come back to our css file, we will scroll up 
+                and then we can see where we have added the class name right-sidebar in our css file, 
+                in its css properties, we will proceed to include background  to be set as white, 
+                we will also add padding and set it as 20px, then add border-radius and set as 4px.  
+                After that, we will add one more property which is color.
+                </p>
+            </div>
+            <div class="Row">
+                <div class="RResponsive-col">
+                    <p>Now we will have:</p>
+                </div>
+                <div class="Responsive-col">
+                    <h3>CSS</h3>
+                    <div class = "image-container">
+                    <div class="line">
+                    <img src="images2/Screenshot (1080).png">
+                </div>
+                </div>
+            </div>
+                </div>
+            </section>
+            <section class="Responsive-web">
+                <div class="text-col">
+                <p>Refresh the website and we can see white color 
+                    for the right-sidebar and the title text which is “Event” and 
+                    one link text which is “See All”.
+                    </p>
+                </div>
+                </section>
+                <section class="Responsive-web">
+                    <div class="text-col">
+                        <img src="images2/Screenshot (577).png">
+                    </div>
+                    </section>
+            <section class="Responsive-web">
+            <div class="text-col">
+            <p>Next, we will add some events in the right-sidebar.
+                Let's come back to our html file and we can see the closing div tag for the 
+                div with the class name "sidebar-title". Then after the closing div tag for 
+                the div with the class name "sidebar-title" we will come under it and begin 
+                our next line. We will create the div with the class then "event" then within it, 
+                we will create two columns.  That means our next line is still within the div 
+                with the class name "right-sidebar" .
+                Then the div with the class name "container" carries them all. From div with 
+                the class name "left-sidebar"  to "imp-links" to "shortcut-links" 
+                to "main-content" to "right-sidebar" to "sidebar-title" to "event" all inside the container.
+                Now, like we have explained, after the closing div tag for div with the 
+                class name "sidebar-title" but still within the div with the 
+                class name "right-sidebar"  we will create another div with the class name “event” and 
+                within this event, there will be two columns, left column and right column. 
+                So for this column, we will be creating one div with the class name "left-event" as well
+                 and again we will create another div with the class name "right-event".
+                </p>
+                </div>
+                <div class="Row">
+                    <div class="Responsive-col">
+                        <h3>HTML</h3>
+                        <div class = "image-container">
+                        <div class="line">
+                        <img src="images2/Screenshot (1081).png">
+                    </div>
+                    </div>
+                </div>
+                <div class="RResponsive-col">
+                    <p>HTML:</p>
+                </div>
+                    </div>
+                    </section>
+                    <section class="Responsive-web">
+                    <div class="text-col">
+                        <p>Above is the last concluded div with the class name  “sidebar-title” for
+                             better understanding.</p>
+                    </div>
+                    <div class="Row">
+                        <div class="Responsive-col">
+                            <h3>HTML</h3>
+                            <div class = "image-container">
+                            <div class="line">
+                            <img src="images2/Screenshot (1082).png">
+                        </div>
+                        </div>
+                    </div>
+                    <div class="RResponsive-col">
+                        <p>Now, based on the explanations we have:</p>
+                    </div>
+                        </div>
+                </section>
+                <section class="Responsive-web">
+                    <div class="text-col">
+                        <p>Then we will come to the left column, which is the div
+                             with the class name “left-event” and within the left-event, 
+                             we will add event date using the h3 tag. Then we will come 
+                             under the h3 tag and add the span tag and in this span we will add month.
+                             Now, we will come to the div with the class name “right-event” which is the
+                              right side and within this “right-event” we will add event name and for that,
+                               we will write it in the h4 title tag, whereby the event name will be “Social Media”.
+                             Then under the h4 tag, we will add one small text also. For that, we will use 
+                             the p tag and in this p tag, we will add the location of the event.
+                             Then under the p tag, there will be one link also, so we will add one 
+                             anchor tag and link text will be “More Info”.
+                             </p>
+                    </div>
+                    <div class="Row">
+                        <div class="Responsive-col">
+                            <h3>HTML</h3>
+                            <div class = "image-container">
+                            <div class="line">
+                            <img src="images2/Screenshot (1083).png">
+                        </div>
+                        </div>
+                    </div>
+                    <div class="RResponsive-col">
+                        <p>Now we have:</p>
+                    </div>
+                        </div>
+                    </section>
+                    <section class="Responsive-web">
+                        <div class="text-col">
+                            <p>Refresh the website and we can see the date, event name, 
+                                location and link on our website.</p>
+                            </div>
+                            </section>
+                            <section class="Responsive-web">
+                                <div class="text-col">
+                                    <img src="images2/Screenshot (579).png">
+                                    </div>
+                                    </section>
+                <section class="Responsive-web">
+                <div class="text-col">
+                <p>Next, we have to add css properties for it so, it will look good.
+                    We will come to our css file on our next line, which is after the 
+                    closing curly bracket for the class name sidebar-title with a tag beside it.
+                    Then we will write the class name event and include the css properties:
+                    </p>
+                </div>
+                <div class="Row">
+                    <div class="RResponsive-col">
+                        <p>Like this:</p>
+                    </div>
+                    <div class="Responsive-col">
+                        <h3>CSS</h3>
+                        <div class = "image-container">
+                        <div class="line">
+                        <img src="images2/Screenshot (1085).png">
+                    </div>
+                    </div>
+                </div>
+                    </div>
+                </section>
+                <section class="Responsive-web">
+                    <div class="text-col">
+                    <p>After that, we will add the css for the left column of the event 
+                        which is, left-event class name.
+                        </p>
+                    </div>
+                    <div class="Row">
+                        <div class="RResponsive-col">
+                            <p>Like this:</p>
+                        </div>
+                        <div class="Responsive-col">
+                            <h3>CSS</h3>
+                            <div class = "image-container">
+                            <div class="line">
+                            <img src="images2/Screenshot (1086).png">
+                        </div>
+                        </div>
+                    </div>
+                        </div>
+                    </section>
+        <section class="Responsive-web">
+        <div class="text-col">
+        <p>Added margin from the right side and padding from the top.
+            Refresh the website and we can see how it looks on the left side.            
+        </p>
+        </div>
+        </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+                <img src="images2/Screenshot (602).png">
+            </div>
+            </section>
+            <section class="Responsive-web">
+                <div class="text-col">
+                <p>We can see 24 July on the left side and other information on the right side.
+                    Next, we will add the css properties for the p tag and a tag which is anchor tag, 
+                    in the right side.
+                    Let's come to our css file and write:             
+                </p>
+                </div>
+                <div class="Row">
+                    <div class="RResponsive-col">
+                        <p>Let's come to our css file and write:</p>
+                    </div>
+                    <div class="Responsive-col">
+                        <h3>CSS</h3>
+                        <div class = "image-container">
+                        <div class="line">
+                        <img src="images2/Screenshot (1087).png">
+                    </div>
+                    </div>
+                </div>
+                    </div>
+                </section>
+    <section class="Responsive-web">
+    <div class="text-col">
+    <p>Refresh the website and now we can see the texts on the right side looks good.         
+    </p>
+    </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+            <img src="images2/Screenshot (603).png">
+        </div>
+        </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+            <p>Next, we will add the css for the span where we have added the month.
+                If we check our html file, we can see where we have the span tag. 
+                Let's come to our css file and write the class name left-event and beside it,
+                 we will add span           
+            </p>
+            </div>
+            <div class="Row">
+                <div class="RResponsive-col">
+                    <p>Like this:</p>
+                </div>
+                <div class="Responsive-col">
+                    <h3>CSS</h3>
+                    <div class = "image-container">
+                    <div class="line">
+                    <img src="images2/Screenshot (1088).png">
+                </div>
+                </div>
+            </div>
+                </div>
+            </section>
+            <section class="Responsive-web">
+                <div class="text-col">
+                <p>Set padding as  4px from top and bottom also, zero from the left side.
+                    If we refresh the website, we can see it looks good.	                           
+                </p>
+                </div>
+                </section>
+                <section class="Responsive-web">
+                    <div class="text-col">
+                        <img src="images2/Screenshot (604).png">
+                    </div>
+                    </section>
+                    <section class="Responsive-web">
+                        <div class="text-col">
+                        <p>But right now, we can see that the height is bigger than the width.
+                            Let's come back to our css file and scroll to the top from where we 
+                            started our css properties. Within the curly brackets we will include 
+                            box-sizing and set it as border-box;                                   
+                        </p>
+                        </div>
+                        <div class="Row">
+                            <div class="RResponsive-col">
+                                <p>Like this:</p>
+                            </div>
+                            <div class="Responsive-col">
+                                <h3>CSS</h3>
+                                <div class = "image-container">
+                                <div class="line">
+                                <img src="images2/Screenshot (1089).png">
+                            </div>
+                            </div>
+                        </div>
+                            </div>
+                        </section>
+        <section class="Responsive-web">
+        <div class="text-col">
+        <p>The properties in the curly brackets above will be applicable for all the 
+            html elements like we discussed in the beginning of this practical.
+            Refresh the website and we can see the events look good now.                           
+        </p>
+        </div>
+        </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+                <img src="images2/Screenshot (605).png">
+            </div>
+        </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+            <p>Similarly, we will add one more event. 
+                Let's come back to our html file after the closing div tag for the div 
+                with the class name "right-event" and also after the closing div tag for the div 
+                with the class name "event", we will come under it and create the div with the 
+                class name "event" again, followed by its contents which are "left-event" column 
+                and "right-event" column but, with  different texts each.                     
+            </p>
+            </div>
+            <div class="Row">
+                <div class="Responsive-col">
+                    <h3>HTML</h3>
+                    <div class = "image-container">
+                    <div class="line">
+                    <img src="images2/Screenshot (1090).png">
+                </div>
+                </div>
+            </div>
+            <div class="RResponsive-col">
+                    <p>Like this:</p>
+                </div>
+                </div>
+        </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+            <p>Here is a perfect view of the code:         
+            </p>
+            </div>
+        </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+                <img src="images2/Screenshot (1091).png">
+            </div>
+        </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+                <img src="images2/Screenshot (1093).png">
+            </div>
+        </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+            <p>Refresh the website and we can see another event in 
+                the column on our webpage.        
+            </p>
+            </div>
+        </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+                <img src="images2/Screenshot (606).png">
+            </div>
+        </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+            <p>Next, we will add an icon before the "Willson Tech Park" address.
+                We will add location icon. To add one icon, we will use "font awesome" website.
+                Open the website font awesome.com and create an account.	                
+            </p>
+            </div>
+        </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+                <img src="images2/Screenshot (581).png">
+            </div>
+        </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+                <p>After creating an account, then click on the account icon
+                     or profile icon on the right side of the font awesome website.</p>
+            </div>
+        </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+                <img src="images2/Screenshot (582).png">
+            </div>
+        </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+                <p>Then click on "your kits", and locate the code in "your kits" 
+                    and click on the code.</p>
+            </div>
+        </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+                <img src="images2/Screenshot (586).png">
+            </div>
+            </section>
+            <section class="Responsive-web">
+            <div class="text-col">
+                <img src="images2/Screenshot (588).png">
+            </div>
+        </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+                <p>After clicking on the code, then we have this 
+                    page which will give us one line of script, 
+                    then we will copy the script:</p>
+            </div>
+        </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+                <img src="images2/Screenshot (589).png">
+            </div>
+        </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+                <p>Let's come back to the html file and we will come 
+                    to the head tag of the html file and add the script before 
+                    the closing head tag:</p>
+            </div>
+            <div class="Row">
+                <div class="Responsive-col">
+                    <h3>HTML</h3>
+                    <div class = "image-container">
+                    <div class="line">
+                    <img src="images2/Screenshot (1096).png">
+                </div>
+                </div>
+            </div>
+            <div class="RResponsive-col">
+                    <p>Like this:</p>
+                </div>
+                </div>
+        </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+                <p>Then after writing that, we will come back to our account 
+                    on the same fontawesome website. Then at the top in the menu, 
+                    we will see “icons” click on the "icons"</p>
+            </div>
+            </section>
+            <section class="Responsive-web">
+                <div class="text-col">
+                    <img src="images2/Screenshot (595).png">
+                </div>
+                </section>
+                <section class="Responsive-web">
+                    <div class="text-col">
+                        <img src="images2/Screenshot (596).png">
+                    </div>
+                    </section>
+        <section class="Responsive-web">
+        <div class="text-col">
+        <p>and in the searchbox, we can search for any icon that we want to use
+             on our webpage. So, let's search for "location"</p>
+        </div>
+        </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+                <img src="images2/Screenshot (600).png">
+            </div>
+            </section>
+        <section class="Responsive-web">
+        <div class="text-col">
+        <p>Let's scroll down and we will get different icons. Here, 
+            we will use "location-dot" so we will click on it.</p>
+        </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+            <img src="images2/Screenshot (598).png">
+        </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+        <p>Then we will see the page that contains one line of code for 
+            the icon, we will click and copy the code.</p>
+        </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+            <img src="images2/Screenshot (599).png">
+        </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+        <p>After, we will come back to the html file and place the icon code where we 
+            want it to be displayed.
+            Let's come to the div with the class name "right-event" and we will paste 
+            the icon in the p tag before the "Willson Tech Park" address.
+            We will also come to the other aspect where we created the same div with 
+            the class name "right-event"  that has a different text in its h4 text. 
+            Then in the p tag, we will paste the same icon before the "Willson Tech Park" address.
+            </p>
+        </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+            <p>....and Like this: 
+                Here is a perfect view of the code:
+                </p>
+        </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+            <img src="images2/Screenshot (1097).png">
+        </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+            <img src="images2/Screenshot (1098).png">
+        </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+            <p>After pasting, let's come to our website and refresh, 
+                then we can see the icon before the address on our website or webpage.</p>
+        </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+            <img src="images2/Screenshot (608).png">   
+        </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+            <p>Now, the event looks better. After adding those two events, we will then
+                 add one advertisement image below, but before the advertisement image,
+                  we will add one title.
+                Let's come back to our html file, after the closing div tag for the second div 
+                with the class name "event". </p>
+        </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+   <p>Here are some of the recap on the content in the second div with the class name "event"
+    </p>
+    </div>
+    <div class="Row">
+        <div class="Responsive-col">
+            <h3>HTML</h3>
+            <div class = "image-container">
+            <div class="line">
+            <img src="images2/Screenshot (1101).png">
+        </div>
+        </div>
+    </div>
+    <div class="RResponsive-col">
+            <p>Here are some of the recap on the content in the second div with 
+                the class name "event"</p>
+        </div>
+        </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+   <p>Now here we will create:
+    </div>
+    <div class="Row">
+        <div class="Responsive-col">
+            <h3>HTML continuation:</h3>
+            <div class = "image-container">
+            <div class="line">
+            <img src="images2/Screenshot (1100).png">
+        </div>
+        </div>
+    </div>
+    <div class="RResponsive-col">
+            <p>HTML continuation:</p>
+        </div>
+        </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+            <p>Above we created the div with the class name "sidebar-title" again and we 
+                added a text which is "advertisement" in h4 tag and also added the link tag
+                 which is the anchor tag with a text "Close".
+                Refresh the website and we can see another title on our website and  "close" link text.
+                 </p>
+        </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+            <img src="images2/Screenshot (609).png"> 
+        </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+            <p>Then let's come back to our html file, after the closing div tag for the 
+                div with the class name "sidebar-title" the one we just concluded earlier
+                 which has the h4 tag with the text "Advertisement" and anchor tag 
+                 with the text "Close" <br>
+                So, after the closing div tag for this div with the class name "sidebar-title"
+                 we will write:
+                 </p>
+        </div>
+        <div class="Row">
+            <div class="Responsive-col">
+                <h3>HTML continuation:</h3>
+                <div class = "image-container">
+                <div class="line">
+                <img src="images2/Screenshot (1103).png">
+            </div>
+            </div>
+        </div>
+        <div class="RResponsive-col">
+                <p>HTML continuation:</p>
+            </div>
+            </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+            <p>Then let's come back to our html file, after the closing div tag for the 
+                div with the class name "sidebar-title" the one we just concluded earlier
+                 which has the h4 tag with the text "Advertisement" and anchor tag 
+                 with the text "Close" <br>
+                So, after the closing div tag for this div with the class name "sidebar-title"
+                 we will write:
+                 </p>
+        </div>
+        <div class="Row">
+            <div class="Responsive-col">
+                <h3>HTML continuation:</h3>
+                <div class = "image-container">
+                <div class="line">
+                <img src="images2/Screenshot (1103).png">
+            </div>
+            </div>
+        </div>
+        <div class="RResponsive-col">
+                <p>HTML continuation:</p>
+            </div>
+            </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+            <p>Here is the perfect view of the code:
+                 </p>
+        </div>
+        <div class="Row">
+            <div class="Responsive-col">
+                <h3>HTML:</h3>
+                <div class = "image-container">
+                <div class="line">
+                <img src="images2/Screenshot (1104).png">
+            </div>
+            </div>
+        </div>
+        <div class="RResponsive-col">
+                <p>HTML:</p>
+            </div>
+            </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+            <p>Above, we  have added  the img tag, with the image folder and file 
+                path followed by the class name “sidebar-ads”
+                Then we will come to our css file, on our next line we will write:
+                 </p>
+        </div>
+        <div class="Row">
+            <div class="RResponsive-col">
+                <p>Then we will come to our css file, on our next line we will write:</p>
+            </div>
+            <div class="Responsive-col">
+                <h3>CSS:</h3>
+                <div class = "image-container">
+                <div class="line">
+                <img src="images2/Screenshot (1105).png">
+            </div>
+            </div>
+        </div>
+            </div>
+        </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+                <p>Refresh the website and we can see one advertisement
+                     image in the right-sidebar.
+                     </p>
+            </div>
+            </section>
+            <section class="Responsive-web">
+                <div class="text-col">
+                    <img src="images2/Screenshot (611).png">
+                </div>
+            </section>
+        <section class="Responsive-web">
+        <div class="text-col">
+        <p>Now, we will add another title in the right column which is the
+        right-sidebar. This will be for users that are active on the website. 
+        Let's come back to our html file and then we will come under the advertisement 
+        image tag and we will create the div with the class name "sidebar-title" again.
+        Then in the h4 tag, we will add title which is "Conversation" and in the anchor
+        tag, we will add the text which is "Hide Chat"
+        </p>
+        </div>
+        <div class="Row">
+            <div class="Responsive-col">
+                <h3>HTML:</h3>
+                <div class = "image-container">
+                <div class="line">
+                <img src="images2/Screenshot (1125).png">
+            </div>
+            </div>
+        </div>
+        <div class="RResponsive-col">
+            <p>Like this:</p>
+        </div>
+            </div>
+        </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+            <p>Refresh the website and we can see the title "Conversation" and 
+                the link "Hide Chat" on our webpage.
+            </p>
+            </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+            <img src="images2/Screenshot (615).png">
+        </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+    <p>After that, we will add some users icon and users name. 
+        Let's come back to our html file. Let's come back to our html file, 
+        and we will come under the closing div tag for the second div with the class 
+        name "sidebar-title" which has the title ---- > Conversation in h4 tag. We will 
+        create a new div with the class name "online-list". Then within the div with 
+        the class name "online-list", we will create another div with the class 
+        name "online" which we have already added in the navigation bar, so we 
+        are using the same class name which is "online". Then within the div with
+         the class name "online" we will add one image using the img tag, followed 
+         by the image folder name and file name.  After that, we will write the name 
+         of the user, so we will use p tag which is the paragraph tag and we will
+          add the name of the user in p tag. Then similarly, we will duplicate the 
+          div we have created because, we will be adding other users as well, we will 
+          make a duplication and add different image and name for each user.
+    </p>
+    </div>
+    <div class="Row">
+        <div class="Responsive-col">
+            <h3>HTML showcase:</h3>
+            <div class = "image-container">
+            <div class="line">
+            <img src="images2/Screenshot (1108).png">
+        </div>
+        </div>
+    </div>
+    <div class="RResponsive-col">
+        <p>Like this:
+            We  showcased  some of the tags from the previous explanation here, 
+            then we  continued with the current tags from this recent explanation 
+            for better understanding:
+        </p>
+    </div>
+        </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+    <p>So we have the closing div tag for the second div with the class name "sidebar-title" which 
+        has the title Coversation in h4 tag above.
+    </p>
+    </div>
+    <div class="Row">
+        <div class="Responsive-col">
+            <h3>Now, let's continue:</h3>
+            <div class = "image-container">
+            <div class="line">
+            <img src="images2/Screenshot (1111).png">
+        </div>
+        </div>
+            <div class = "image-container">
+            <div class="line">
+            <img src="images2/Screenshot (1112).png">
+        </div>
+        </div>
+    </div>
+    <div class="RResponsive-col">
+        <p>Now, lets continue:
+        </p>
+    </div>
+        </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+    <p>Refresh the website and we can see three users on the 
+        right side bar with their name and image and the small green color of dot.
+    </p>
+    </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+        <img src="images2/Screenshot (663).png">
+    </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+    <p>Let's come back and in our html file, we can see we have the 
+        class name "online-list" and so we will come to our css file and 
+        write the class name and then include the css properties:
+    </p>
+    </div>
+    <div class="Row">
+        <div class="RResponsive-col">
+            <p>CSS:
+            </p>
+        </div>
+        <div class="Responsive-col">
+            <h3>CSS:</h3>
+            <div class = "image-container">
+            <div class="line">
+            <img src="images2/Screenshot (1114).png">
+        </div>
+        </div>
+    </div>
+        </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+    <p>Then, within the div with the class name "online-list", we have 
+        the div with the class name "online" and within the div with the 
+        class name "online", we also have the image tag in our html file.
+    </p>
+    </div>
+    <div class="Row">
+        <div class="RResponsive-col">
+            <p>So in our css file, we will write:
+            </p>
+        </div>
+        <div class="Responsive-col">
+            <h3>CSS:</h3>
+            <div class = "image-container">
+            <div class="line">
+            <img src="images2/Screenshot (1116).png">
+        </div>
+        </div>
+    </div>
+        </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+        <p>After that, if we refresh the website, 
+            we can see the images has been styled into small icons and we can see
+             the small icons and their names as well as the green icon.
+        </p>
+        </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+            <img src="images2/Screenshot (671).png">
+        </div>
+        <div class="Row">
+            <div class="RResponsive-col">
+                <p>We will come back to the css file and write:
+                </p>
+            </div>
+            <div class="Responsive-col">
+                <h3>CSS:</h3>
+                <div class = "image-container">
+                <div class="line">
+                <img src="images2/Screenshot (1117).png">
+            </div>
+            </div>
+        </div>
+            </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+            <p>Now, refresh the website and we can see we have some space.</p>
+        </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+            <img src="images2/Screenshot (674).png">
+        </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+            <p>Next, we have to move the green color of dot at the bottom corner
+                 of the user's profile. Which means right bottom of the user's icon.
+                Let's come to our css file and because we have added the pseudo element
+                 after in the navigation bar and in order to add the green icon, we have 
+                 initial set top as zero in our previous styling and so here we will write:       
+            </p>
+        </div>
+        <div class="Row">
+            <div class="RResponsive-col">
+                <p>CSS:
+                </p>
+            </div>
+            <div class="Responsive-col">
+                <h3>CSS:</h3>
+                <div class = "image-container">
+                <div class="line">
+                <img src="images2/Screenshot (1118).png">
+            </div>
+            </div>
+        </div>
+            </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+            <p>Now, the icon will appear at the bottom right corner.	
+                Refresh the website and  now, the green icon is at the perfect position.                 
+            </p>
+        </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+            <img src="images2/Screenshot (675).png">  
+        </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+            <p>So now, we have added all the users list which is active on the website.
+                Right now, the title "Events" and the title "Social Media" is looking different, 
+                it is bold. Let's fix the title "Social Media"
+                If we check from our html file, we can see we have the div with the
+                 class name "right-sidebar" we will come to our css file and scroll to the line
+                  where we have the class name sidebar-title with the h4 tag beside it. 
+                  Then we will change the class name .sidebar-title h4 to .right-sidebar h4. 
+                   So we changed the class name sidebar-title with h4 tag beside it, 
+                   to  the class name right-sidebar with the h4 tag beside it.
+                Now, it looks like this:	              
+            </p>
+        </div>
+        <div class="Row">
+            <div class="RResponsive-col">
+                <p>CSS:
+                </p>
+            </div>
+            <div class="Responsive-col">
+                <h3>CSS:</h3>
+                <div class = "image-container">
+                <div class="line">
+                <img src="images2/Screenshot (1119).png">
+            </div>
+            </div>
+        </div>
+            </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+            <p>In this right-sidebar, we have the font-size and also font-weight.
+                Let's refresh the website and now we can see the title "Events" 
+                and the title "Social Media" looks the same and now, it looks better. 
+            </p>
+        </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+            <img src="images2/Screenshot (680).png"> 
+        </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+            <p>So, we have added all the contents in the left-sidebar as well as the right-sidebar.
+                Next, we will add the contents in the middle column, where we will add the main-content 
+                like status and new post option and the list of posts.
+                Now, let's come back to our html file and in the html file, let's scroll up and 
+                we can see we have added the div with the class name "main-content".
+                 We will come to this div and within it, we will add our contents.  So we will 
+                 add the contents that will be displayed in the middle column within this 
+                 div with the class name "main-content".
+                Within the div with the class name "main-content", we will add some stories.
+                 To add the stories,  that means within this div with the class name "main-content"
+                  we will create another div with the class name "story-gallery" and then we will 
+                  add multiple stories in this div. That means within this div with the class 
+                  name "story-gallery" we will create another div with the class name "story" and
+                   within this as well, we will add some contents. So within the div with the 
+                   class name "story" we will add one small image with the img tag, we will also 
+                   add one text in p tag which will be ---- > Post Story.
+                
+            </p>
+        </div>
+        <div class="Row">
+            <div class="Responsive-col">
+                <h3>HTML:</h3>
+                <div class = "image-container">
+                <div class="line">
+                <img src="images2/Screenshot (1120).png">
+            </div>
+            </div>
+        </div>
+        <div class="RResponsive-col">
+            <p>Like this:
+            </p>
+        </div>
+            </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+            <p>Refresh the website and we can see one icon in
+                 the middle column which image plus icon, then we 
+                 have the text  ----- > Post Story.
+            </p>
+        </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+            <img src="images2/Screenshot (687).png">
+        </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+            <p>In our html file, we can see we have the div with the 
+                class name “story-gallery”
+                Then we will go to our css file and write:	 
+            </p>
+        </div>
+        <div class="Row">
+            <div class="RResponsive-col">
+                <p>Then we will go to our css file and write:	 
+                </p>
+            </div>
+            <div class="Responsive-col">
+                <h3>CSS:</h3>
+                <div class = "image-container">
+                <div class="line">
+                <img src="images2/Screenshot (1121).png">
+            </div>
+            </div>
+        </div>
+            </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+            <p>We also have the div with the class name "story" in our html file and so,
+                 we will include the css for the class name story in our css file. 
+                 In the css properties we will set flex-basis as 18% because, we will add 
+                 five images, so the flex-basis will be the width of the story, but we 
+                 don't know the height. 
+                Let's open the calculator in our browser, then on our calculator, we will 
+                calculate 16 to ratio 9  
+            </p>
+        </div>
+        </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+                <img src="images2/Screenshot (682).png"> 
+            </div>
+            </section>
+            <section class="Responsive-web">
+            <div class="text-col">
+                <p>Which will give us:  
+                    1.77777777778
+                    </p>
+            </div>
+        </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+                <img src="images2/Screenshot (683).png"> 
+            </div>
+            </section>
+            <section class="Responsive-web">
+                <div class="text-col">
+                    <p>Then let's multiply our answer by 18, because we have the width as 18.
+                        </p>
+                </div>
+        </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+                <img src="images2/Screenshot (684).png"> 
+            </div>
+            </section>
+            <section class="Responsive-web">
+                <div class="text-col">
+                    <img src="images2/Screenshot (685).png"> 
+                </div>
+        </section>
+        <section class="Responsive-web">
+            <div class="text-col">
+                <p>Then the answer from our calculator gives us : 32
+                    </p>
+            </div>
+    </section>
+    <section class="Responsive-web">
+        <div class="text-col">
+            <p>Now, we will add 32 in the height, but then we will not set 
+            the property as height, instead, we will set the property as padding from the top.
+                </p>
+        </div>
+        <div class="Row">
+            <div class="RResponsive-col">
+                <p>Now, we have:	 
+                </p>
+            </div>
+            <div class="Responsive-col">
+                <h3>CSS:</h3>
+                <div class = "image-container">
+                <div class="line">
+                <img src="images2/Screenshot (1122).png">
+            </div>
+            </div>
+        </div>
+            </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+        <p>We have added one image icon within the div with 
+        the class name "story" in our html file. So here in our css fille, we will write:
+            </p>
+    </div>
+    <div class="Row">
+        <div class="RResponsive-col">
+            <p>We will write:
+            </p>
+        </div>
+        <div class="Responsive-col">
+            <h3>CSS:</h3>
+            <div class = "image-container">
+            <div class="line">
+            <img src="images2/Screenshot (1123).png">
+        </div>
+        </div>
+    </div>
+        </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+        <p>Then again, we have the p tag within the 
+            div with the class name "story" in our html file. So again, 
+            in our css file, we will write:</p>
+    </div>
+    <div class="Row">
+        <div class="RResponsive-col">
+            <p>We will write:
+            </p>
+        </div>
+        <div class="Responsive-col">
+            <h3>CSS:</h3>
+            <div class = "image-container">
+            <div class="line">
+            <img src="images2/Screenshot (1124).png">
+        </div>
+        </div>
+    </div>
+        </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+        <p>Next, we will add other stories also.
+            Let's come back to our html file and duplicate the div with the
+             class name story and the contents within it, under the closing div 
+             tag for the same div with the class name "story  story1". So we will
+              duplicate it four time, then the total will be a total of five stories, 
+              then we will proceed to change the class name, so here in the duplication, 
+              we will change each class name to "story  story2" ,  "story  story3" ,       
+             "story  story4" ,  "story  story5" , 
+            and also we will change the images from the duplication to  member images 
+            and change the p tag text to the names of the members. Therefore, all duplications
+             of this div with the class name "story  story1" and the contents within it, 
+             will still be within the div with the class name "story-gallery" and 
+             as well all still within the div with the class name "main-content"
+            </p>
+    </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+<p>Let's showcase everything out in full here, showcasing from the div 
+the class name "main-content"</p>
+</div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+        <img src="images2/Screenshot (1129).png">
+</div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+<p>Let's come to our css file and we will write css properties for the class name story1 and in 
+    this class name story1, we will include the 
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)),
+    url(images/status-1.png);
+    Then we will write the same css property  for the class name story2, 
+    story3, story4, story5 each, but in this css property for the class names, 
+    though we will make use of the same linear-gradient color, but with
+     different images for each class names.
+    </p>
+</div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+        <img src="images2/Screenshot (1134).png">
+        </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+        <p>After writing, then refresh the website and we can see different images in 
+            the story, in the middle column, which are aligned together, It  looks good. 
+            The texts are also visible, which looks  fine  because, we have added one layer
+             on the background images, which is the linear-gradient, where we added two colors 
+             in which the first color is transparent and we added the second color in rgba format, 
+             and the ratio is looking good.  </p>
+        </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+        <img src="images2/Screenshot (695).png">
+        </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+        <p>Now, just for the first image only, we have to change the position 
+            of the plus image  icon. 
+            Let's come to our css file and write:
+              </p>
+        </div>
+        <div class="Row">
+            <div class="RResponsive-col">
+                <p> Let's come to our css file and write:
+                </p>
+            </div>
+            <div class="Responsive-col">
+                <h3>CSS:</h3>
+                <div class = "image-container">
+                <div class="line">
+                <img src="images2/Screenshot (1149).png">
+            </div>
+            </div>
+        </div>
+            </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+        <p>So, we added css properties for the first story image and we can see 
+        that we didn't add any space between the class names, it is dot story dot story1  
+        then space img. Then we added different position for the image. We set top to be
+        unset because, we have set top to be 10px in the initial class name story img 
+        in the css file. We set transform as translateX(-50%) so it will be horizontally centered.
+        Now, when we refresh the website, we can see the plus icon on the first image, 
+        it looks perfect on the image.
+              </p>
+        </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+        <img src="images2/Screenshot (701).png">
+        </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+    <p>We have completed the story section for this webpage. Now, after completing the 
+        story section, we will create another section, where users can post
+         anything on the website.
+
+        We will add one input box and with that, we will also add some icons, 
+        such as icons to upload videos or photos and icon for going on live and 
+        icon for activities. 
+        We will come to our html file and we can see where the closing div tag 
+        for the div with the class name “story-gallery” is at. Which is right
+         before the closing div tag for the div with the class name "main-content". 
+         So, we will come under  the closing div tag for the div with the
+          class name "story-gallery", the we will create another div with 
+          the class name "write-post-container", then within this div, 
+          we will create one user-profile, to create this user profile, 
+          within the div with the class name "write-post-container", we will create 
+          another div with the class name "user-profile" and in this user-profile, 
+          there will be one user's image, so we will add one image tag and image
+           within the div with the class name "user-profile" and under the image tag, 
+           within the div with the class name "user-profile", we will add
+           user's name and there will be some other information also such as posts 
+           going to the public or hidden and for that, we will come under the image
+            tag and create a div tag. Within this div tag, we will write the user's 
+            name in p tag, and under the p tag, we will add the small tag and in 
+            the small tag, we will add the text ------ > Public. </p>
+        </div>
+        <div class="Row">
+            <div class="Responsive-col">
+                <h3>HTML:</h3>
+                <div class = "image-container">
+                <div class="line">
+                <img src="images2/Screenshot (1151).png">
+            </div>
+            </div>
+        </div>
+        <div class="RResponsive-col">
+            <p>Now, we have:
+            </p>
+        </div>
+            </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+    <p>Let's refresh the website and we can see the user's image, 
+        name and the text which is ----- > Public</p>
+        </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+        <img src="images2/Screenshot (707).png">
+        </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+    <p>Now, let's come to our css file and write the class name 
+        write-post-container and then include the css properties:</p>
+        </div>
+        <div class="Row">
+            <div class="RResponsive-col">
+                <p>CSS:
+                </p>
+            </div>
+            <div class="Responsive-col">
+                <h3>CSS:</h3>
+                <div class = "image-container">
+                <div class="line">
+                <img src="images2/Screenshot (1153).png">
+            </div>
+            </div>
+        </div>
+            </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+    <p>In our html file, we also have the class name "user-profile". 
+        So here in our css file, we will write the class name user-profile
+         and include the css properties as well:</p>
+        </div>
+        <div class="Row">
+            <div class="RResponsive-col">
+                <p>CSS:
+                </p>
+            </div>
+            <div class="Responsive-col">
+                <h3>CSS:</h3>
+                <div class = "image-container">
+                <div class="line">
+                <img src="images2/Screenshot (1154).png">
+            </div>
+            </div>
+        </div>
+            </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+    <p>Then, within the div with the 
+        class name "user-profile" we have one image also, 
+        from our html file. Then here in our css file, we will write:</p>
+        </div>
+        <div class="Row">
+            <div class="RResponsive-col">
+                <p>CSS:
+                </p>
+            </div>
+            <div class="Responsive-col">
+                <h3>CSS:</h3>
+                <div class = "image-container">
+                <div class="line">
+                <img src="images2/Screenshot (1155).png">
+            </div>
+            </div>
+        </div>
+            </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+    <p>Let's refresh the website and we can see how it looks.</p>
+        </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+        <img src="images2/Screenshot (709).png">
+        </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+    <p>Now, we have to add the css for the title text in p tag and 
+        the text ---- > Public ---- > Which is in small tag.
+        In our css file, we will write:
+        </p>
+        </div>
+        <div class="Row">
+            <div class="RResponsive-col">
+                <p>CSS:
+                </p>
+            </div>
+            <div class="Responsive-col">
+                <h3>CSS:</h3>
+                <div class = "image-container">
+                <div class="line">
+                <img src="images2/Screenshot (1156).png">
+            </div>
+            </div>
+        </div>
+            </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+    <p>Refresh the website and we can see how it looks now.
+        </p>
+        </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+        <img src="images2/Screenshot (711).png">
+        </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+    <p>Now, we have to add the css for the small tag. So in our css file, we will write:	
+        </p>
+        </div>
+        <div class="Row">
+            <div class="RResponsive-col">
+                <p>CSS:
+                </p>
+            </div>
+            <div class="Responsive-col">
+                <h3>CSS:</h3>
+                <div class = "image-container">
+                <div class="line">
+                <img src="images2/Screenshot (1157).png">
+            </div>
+            </div>
+        </div>
+            </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+        <p>Then when we refresh the website, we can see the text is small.</p>
+        </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+        <img src="images2/Screenshot (714).png">
+        </div>
+</section>
+<section class="Responsive-web">
+    <div class="text-col">
+        <p>Now, we will add one icon which will be down arrow icon.
+            So, we will come to our html file in the small tag, we will come
+             beside the text ---- > Public and add one icon.
+            To add icon, we will again come to font awesome.com website, 
+            </p>
+        </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
